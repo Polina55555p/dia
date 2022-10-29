@@ -1,0 +1,434 @@
+:root {
+    --my-dark-orange: #D7A100;
+    --my-orange: #FFBF00;
+    --my-dark:  #242424;
+    --my-lite: #F5F5F5;
+    --my-white:  #fff;
+    --my-lite-orange: #F4D26D;
+    --my-grey: #E1E1E1;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: var(--my-dark);
+    background: url('../img/body/lines.svg') center center repeat-y;
+    z-index: 10;
+    overflow-x: hidden;
+}
+
+h1, h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+
+h2 span:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0.5rem;
+    width: 100%;
+    height: 0.68125rem;
+    transform: skew(-12deg) translateX(-50%);
+    background: var(--my-lite-orange);
+    z-index: -1;
+}
+
+.icon-arrow {
+    font-size: 1.5rem;
+    color: var(--my-orange);
+}
+
+
+/*HEADER*/
+
+header {
+    z-index: 0;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('../img/header/bg-header.jpg') center center no-repeat;
+     background-size: cover;
+    opacity: .8;
+}
+
+.icon-fav {
+    font-size: 2rem;
+    color: var(--my-dark-orange);
+    padding-right: 0.5rem;
+}
+.navbar .container-xl {
+    padding: 0 5rem;
+}
+
+.navbar-brand img {
+    padding-right: 0.5rem;
+}
+.name-brand {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--my-dark);
+    margin-bottom: -0.5rem;
+}
+
+.name-brand span {
+    color: var(--my-dark-orange);
+    line-height: 1.25rem;
+}
+
+.brand .type {
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+.nav-button a {
+    color: var(--my-dark);
+    text-decoration: none;
+}
+
+.icon-whatsapp, .icon-telegram {
+    font-size: 1.5rem;
+    transition: all .3s linear;
+}
+.nav-number {
+    font-weight: 700;
+    transition: all .3s linear;
+}
+.icon-whatsapp:hover, .icon-telegram:hover, .nav-number:hover {
+    color: var(--my-orange);
+}
+
+.btn {
+    font-weight: 700;
+    padding: 0.75rem 2.625rem;
+    background: var(--my-orange);
+    transition: all .3s linear;
+}
+
+.btn:hover {
+    color: var(--my-white);
+    background: var(--my-dark);
+}
+
+
+.trigger h1{
+    padding: 15.625rem 0 2rem;
+}
+
+.trigger-text {
+    font-weight: 700;
+}
+
+.trigger-subtitle {
+    padding: 3.125rem 0 1.875rem;
+}
+
+.trigger .btn {
+    margin-bottom: 15.625rem;
+}
+
+
+.text-block {
+    padding-top: 2.5rem;
+    padding-right: 2rem;
+    line-height: 200%;
+}
+
+.nav-button .icon-phone {
+    padding: 0.75rem;
+}
+
+
+
+
+#phone {
+    border-radius: 0.25rem;
+    padding: 0.75rem 2.625rem;
+}
+
+
+/*people*/
+
+.people .text-block {
+    max-width: 56.25rem;
+}
+.people-image {
+    display: flex;
+    justify-content: end;
+}
+
+
+/*repair*/
+
+.repair-card img {
+    padding-right: 2rem;
+}
+.repair-card {
+    padding-top: 3.125rem;
+}
+
+.repair .container-xxl {
+    padding: 0 4rem;
+}
+
+.repair .btn {
+    margin-top: 3.125rem;
+}
+
+.project {
+    padding: 6.25rem 0;
+}
+
+
+/*SLIDER*/
+
+.slick-track{
+    display: flex;  /*block для вертикального слайдера*/
+}
+.slick-list {
+    overflow: hidden;   
+}
+
+.slick-arrow{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    font-size: 0;
+    width: 2rem;
+    height: 2rem;
+    border: none;
+
+
+}
+/* Стрелка влево */
+.slick-arrow.slick-prev{
+    background: url('../img/arrow-left.svg') no-repeat;
+    left: 0;
+
+}
+/* Стрелка вправо */
+.slick-arrow.slick-next{
+    right: 0;
+    background: url('../img/arrow-right.svg') no-repeat;
+}
+
+.slider {
+    position: relative;
+    padding: 3.125rem 3rem 0;   /*отстыпы от слайдера по краям*/
+}
+
+
+/*aesthetics*/
+
+
+.aesthetics-block {
+    padding: 6.25rem 4rem;
+}
+
+
+.howwork .container-xl {
+    padding: 0 5rem 6.25rem;
+}
+
+.howwork-card {
+    padding-top: 2.75rem;
+}
+
+.howwork .btn {
+    font-size: 0.8125rem;
+    margin-top: 3.125rem;
+    padding: 1rem 1.6rem;
+}
+
+/*main-designer*/
+
+.main-designer .container-xxl {
+    padding: 0 5rem 6.25rem;
+}
+.main-designer .big-text {
+    font-size: 2.5rem;
+}
+
+.main-designer .block {
+    padding-left: 5rem;
+}
+
+
+.main-designer .image-block a {
+    cursor: pointer;
+}
+
+/*price*/
+
+.slider-price-item {
+    border: 2px solid var(--my-grey);
+    padding: 2.75rem 2rem 2.25rem;
+    background: var(--my-white);
+}
+
+
+.slider-price {
+    min-width: 0;
+}
+.slider-price {
+    position: relative;
+    padding: 3.125rem 3rem 0; 
+}
+
+.slider-price-title {
+    font-size: 1.625rem;
+    font-weight: 700;
+}
+
+.slider-price-subtitle {
+    font-weight: 700;
+}
+
+.slider-price-footer {
+    font-weight: 700;
+    font-size: 1.125rem;
+    text-align: center;
+    padding: 2rem 0;
+}
+.slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slick-dots li button{
+    font-size: 0;
+    width: 0rem;
+    height: 0rem;
+    background: transparent;
+    cursor: pointer;
+    border: 0px solid transparent;
+}
+
+
+/*whywe*/
+
+
+.whywe .container-xxl {
+    padding: 6.25rem 5rem;
+}
+
+.whywe-cards {
+    padding-top: 4rem;
+}
+
+
+
+/*realization*/
+
+.realization .container-xxl {
+    padding: 0 5rem 6.25rem;
+}
+
+.realization-image {
+    display: flex;
+    justify-content: end;
+}
+/*wework*/
+
+.wework .container-xxl {
+    padding: 0 5rem 2.25rem;
+}
+
+.wework .col {
+    width: 250px;
+}
+
+/*partners*/
+
+.slider-partners {
+    padding: 0 5rem;
+}
+
+.slider-partners .slick-arrow {
+    top: 30%;
+}
+
+/*review*/
+
+.review .container-xxl {
+    padding: 6.25rem 5rem;
+}
+
+.review-title {
+    font-size: 1.625rem;
+}
+
+
+
+/*footer*/
+
+
+.footer .container-xxl {
+    padding: 0 5rem 6.25rem;
+}
+.footer-phone {
+    color: var(--my-dark);
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.footer-social {
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--my-dark);
+}
+
+.icon-whatsapp2, .icon-telegram2, .icon-instagram {
+    font-size: 1.5rem;
+}
+
+
+.footer a:hover {
+    color: var(--my-orange);
+}
+/*Модалка перезвоним*/
+
+
+.modal-header {
+  border-bottom: none;  
+}
+
+.modal-title {
+    padding: 0 1.5rem;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+.modal .btn {
+    color: var(--my-white);
+    background: var(--my-dark);
+}
+
+.modal .btn:hover {
+    color: var(--my-dark);
+    background: var(--my-white);
+}
+
+.modal-content {
+    background: var(--my-orange);
+}
+
+.modal-dialog {
+    max-width: 700px;
+}
+
+
+/*Модалка фото*/
+
+#photo .modal-content {
+    background: url('../img/main-disigner/cert-xl.png') center center no-repeat;
+    
+     height: 591px;
+}
+
+#photo .modal-dialog {
+    max-width: 827px;
+
+}

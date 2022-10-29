@@ -1,0 +1,118 @@
+@media(max-width: 1250px) {
+	.review .container-xxl {
+    padding: 6.25rem 3rem;
+	}
+	.footer .container-xxl {
+    padding: 0 3rem 6.25rem;
+	}
+	.whywe .container-xxl {
+    padding: 5.25rem 1rem;
+}
+}
+@media(max-width: 1199px) {
+	.main-designer .block {
+    padding-left: 1rem;
+	}
+	.wework .container-xxl {
+    padding: 0 0rem 0rem;
+	}
+	.review .container-xxl {
+    padding: 6.25rem 1rem;
+ }
+ .realization-image {
+ 	display: none;
+ }
+ 	
+
+}
+
+@media(max-width: 991px) {
+	.row {
+		padding-left: 1.2rem;
+		padding-right: 1.2rem;
+	}
+	h1, h2 {
+    font-size: 2rem;
+    font-weight: 700;
+	}
+	.people-image {
+		display: none;
+	}
+	.text-block {
+    padding: 0.5rem 0 2.5rem;
+	}
+	.repair .container-xxl {
+    padding: 0;
+	}
+	.aesthetics-block {
+    padding: 1.25rem 0rem;
+	}
+	.aesthetics-image {
+		width: 80%;
+	}
+	.aesthetics-image img {
+		width: 100%;
+	}
+	.howwork .container-xl {
+    padding: 0  0 2.25rem;
+	}
+	.main-designer .container-xxl {
+    padding: 0 0rem 2.25rem;
+	}
+	.realization .container-xxl {
+    padding: 0 0rem 2.25rem;
+	}
+
+	.footer .container-xxl {
+    padding: 0 0rem 2.25rem;
+}
+}
+
+
+@media(max-width: 767px) {
+	.trigger h1 {
+    padding: 7.625rem 0 2rem;
+	}
+	.trigger .btn {
+    margin-bottom: 7.625rem;
+	}
+	.slider {
+    padding: 0;
+	}
+	.slider-item {
+		width: 80%;
+	}
+	.slider-item img {
+		width: 100%;
+	}
+	.slider-price {
+    padding: 0;
+	}
+	.slider-price-item {
+    border: 1px solid var(--my-grey);
+    padding: 0.75rem 0.5rem 0.5rem;
+	}
+	.slider-partners {
+    padding: 0;
+	}
+}
+
+@media(max-width: 420px) {
+	.row {
+		padding-left: 0.5rem;
+		padding-right: 0.5rem;
+	}
+	.main-disigner-image {
+		width: 100%;
+	}
+
+	.main-disigner-image img {
+		width: 100%;
+	}
+	.review-image {
+		width: 100%;
+	}
+	.review-image img {
+		width: 100%;
+	}
+}
